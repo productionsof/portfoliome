@@ -1,29 +1,28 @@
-/* Add your styles here. For example: */
-body {
-  font-family: Arial, sans-serif;
+/* Style the dropdown links */
+nav ul li ul li {
+  display: block;
+  padding: 10px;
 }
 
-header {
-  background-color: #f8f9fa;
-  padding: 20px;
-  text-align: center;
+/* Change the color of the dropdown links when you hover over them */
+nav ul li ul li:hover {
+  background-color: #f1f1f1;
 }
 
-#gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+/* Style the dropdown container */
+nav ul li ul {
+  border-radius: 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-#text-columns {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+/* Style the main menu links */
+nav ul li a {
+  color: #000;
+  padding: 10px;
+  text-decoration: none;
 }
 
-/* Responsive design */
-@media (max-width: 600px) {
-  #gallery, #text-columns {
-      flex-direction: column;
-  }
+/* Change the color of the main menu links when you hover over them */
+nav ul li a:hover {
+  background-color: #f1f1f1;
 }
