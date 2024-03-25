@@ -6,9 +6,15 @@ body, html {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh; /* Adjust as needed */
+  color: white; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
